@@ -4,7 +4,10 @@ public class Coordinator
 {
     private readonly Logger _logger;
 
-    public Coordinator(Logger logger) => _logger = logger;
+    public Coordinator(Logger logger)
+    {
+        _logger = logger;
+    }
 
     public void Run()
     {
